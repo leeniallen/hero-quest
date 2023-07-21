@@ -11,7 +11,11 @@ function healPlayer() {
 
 function attackEnemy() {
   // STUB
+  enemyTurn()
+  CurrentEnemy.health -= player.attackPower
+  
 }
+if
 
 function drawPlayer() {
   document.getElementById('hero-health').innerText = '💖 ' + player.currentHealth
